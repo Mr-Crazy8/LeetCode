@@ -2,7 +2,7 @@ class Solution:
     def reorderSpaces(self, text: str) -> str:
         count_space = text.count(" ")
         list_of_words = text.split()
-        count_words = len(list_of_words)
+        count_words = len(list_of_words) 
         if count_words == 1:
             return list_of_words[0] + " " * count_space
 
